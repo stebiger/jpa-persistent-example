@@ -2,7 +2,7 @@
 This is a basic example how to load an Entity from a database using JPA and JSF to view the result.
 
 ## Requirements
-* Apache Derby Database (Orderentry Schema)
+* Apache Derby Database (Orderentry Schema from OC)
 * Wildfly 10 Final
     * Configured with Derbyclient as module for DataSource
     * Configured DataSource with JNDI as JTA Transaction Type
