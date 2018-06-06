@@ -22,7 +22,8 @@ public class CategoryDemo {
 
     @PostConstruct
     public void init() {
-         categories = em.createQuery("Select c from Category c", Category.class).getResultList();
+        categories = em.createQuery("Select c from Category c", Category.class).getResultList();
+
     }
 
     public Integer getCategoriesSize() {
