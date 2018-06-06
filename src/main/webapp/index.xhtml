@@ -9,5 +9,10 @@
       <h:outputLabel value="Hello, world"/><br/>
       <h:outputLabel value="Categories found: ##{categoryDemo.categoriesSize}"/><br/>
       <h:outputLabel value="Foo found: #{categoryDemo.foo}"/>
+
+      <h:form id="links">
+      <a href="resources/api/categories">REST Service für Kategorien text/plain</a><br/>
+      <a href="resources/api/categoriesjson">REST Service für Kategorien application/json</a>
+      </h:form>
    </f:view>
 </html>
