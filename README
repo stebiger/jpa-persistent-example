@@ -1,8 +1,10 @@
 # JPA BASIC EXAMPLE
 This is a basic example how to load an Entity from a database using JPA and JSF to view the result.
+It also includes a demonstration of a RestService in the path ../resources/api and demonstrates how easy it is to have a REST Service
+in your application
 
 ## Requirements
-* Apache Derby Database (Orderentry Schema from OC)
+* Apache Derby Database (Orderentry Schema)
 * Wildfly 10 Final
     * Configured with Derbyclient as module for DataSource
     * Configured DataSource with JNDI as JTA Transaction Type
